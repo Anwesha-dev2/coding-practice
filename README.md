@@ -1,100 +1,54 @@
-A structured collection of Java mini projects built to strengthen Core Java, Object-Oriented Programming, Collections, Exception Handling, File Handling, JDBC, SQL, Multithreading, Modern Java, Design Patterns, and practical software development skills.
+# Coding Practice
 
-This repository is designed as a progressive Java learning and portfolio repository rather than a collection of unrelated programs. Each project increases in complexity and introduces new concepts, engineering practices, and interview-relevant decisions.
+A personal programming practice repository for building problem-solving,
+logic-building, and Data Structures & Algorithms (DSA) skills.
 
-🎯 Repository Goals
+This repository works as my digital coding notebook where I solve,
+organize, and track programming problems across different languages.
 
-The purpose of this repository is to:
+The focus is not on building projects here.
 
-Build strong Core Java fundamentals
+Projects are maintained separately in their own repositories.
 
-Understand OOP through practical applications
+---
 
-Practice Java Collections with appropriate data-structure choices
+## 🎯 Purpose
 
-Learn robust exception and input handling
+The main purpose of this repository is to:
 
-Work with files and persistent data
+- Build strong programming fundamentals
+- Improve logical and problem-solving ability
+- Practice writing solutions from scratch
+- Understand programming concepts through problems
+- Solve the same problem using different programming languages
+- Build consistency through regular practice
+- Prepare for Data Structures & Algorithms
+- Maintain a record of solved programming questions
 
-Connect Java applications to MySQL using JDBC
+This repository is a learning and practice space rather than a
+collection of portfolio projects.
 
-Apply layered architecture and separation of concerns
+---
 
-Understand basic concurrency and thread safety
+# 📚 Learning Roadmap
 
-Practice Java Streams, Lambda expressions, and functional programming
+The repository follows a progressive learning path.
 
-Apply common design patterns
-
-Write maintainable, testable, documented code
-
-Build projects that can be explained confidently in technical interviews
-
-🗺️ Learning Roadmap
-
-Core Java
-   ↓
-OOP
-   ↓
-Collections
-   ↓
-Exception Handling
-   ↓
-File Handling
-   ↓
-JDBC + MySQL
-   ↓
-Layered Architecture
-   ↓
-Multithreading
-   ↓
-Streams + Lambda
-   ↓
-Design Patterns
-   ↓
-Integrated Java Application
-
-📂 Repository Structure
-
-java-mini-projects/
-│
-├── 01-core-java/
-│   ├── student-grade-calculator/
-│   └── atm-simulation/
-│
-├── 02-oops/
-│   ├── library-management/
-│   └── contact-management/
-│
-├── 03-collections/
-│   └── employee-directory/
-│
-├── 04-exception-handling/
-│   └── banking-system/
-│
-├── 05-file-handling/
-│   └── expense-tracker/
-│
-├── 06-jdbc/
-│   ├── employee-management/
-│   └── student-management/
-│
-├── 07-multithreading/
-│   └── ticket-booking/
-│
-├── 08-modern-java/
-│   └── employee-analytics/
-│
-├── 09-design-patterns/
-│   └── food-ordering/
-│
-├── 10-integrated-project/
-│   └── expense-reimbursement/
-│
-├── README.md
-├── .gitignore
-└── LICENSE
-
-Projects will be added progressively. The structure represents the planned learning roadmap.
+```text
+Programming Fundamentals
+        ↓
+Logic Building
+        ↓
+Recursion
+        ↓
+Arrays
+        ↓
+Strings
+        ↓
+Mixed Logical Challenges
+        ↓
+Data Structures & Algorithms
+        ↓
+Platform Problems
 
 📚 Projects
