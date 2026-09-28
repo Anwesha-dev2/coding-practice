@@ -6,9 +6,9 @@ logic-building, and Data Structures & Algorithms (DSA) skills.
 This repository works as my digital coding notebook where I solve,
 organize, and track programming problems across different languages.
 
-The focus is not on building projects here.
 
-Projects are maintained separately in their own repositories.
+
+
 
 ---
 
@@ -25,9 +25,7 @@ The main purpose of this repository is to:
 - Prepare for Data Structures & Algorithms
 - Maintain a record of solved programming questions
 
-This repository is a learning and practice space rather than a
-collection of portfolio projects.
-
+This repository is a learning and practice space r
 ---
 
 # 📚 Learning Roadmap
@@ -51,4 +49,4 @@ Data Structures & Algorithms
         ↓
 Platform Problems
 
-📚 Projects
+
