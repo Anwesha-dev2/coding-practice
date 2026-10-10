@@ -1,0 +1,23 @@
+const readline = require("readline");
+const r1 = readline.createInterface({
+    input:process.stdin,
+    output:process.stdout
+});
+r1.question("Enter Two Numbers :", (input)=>
+{
+    // Write the  code logic acc to question
+    let [firstNumber,secondNumber] = input. split(" ").map(Number);
+
+    // logic
+    if(firstNumber>secondNumber)
+        console.log("First Number is greater than Second Number");
+    else if(firstNumber<secondNumber)
+    console.log("Second Number is greater than first number");
+    else 
+        console.log("Both Numbers are equal");
+        
+    
+
+
+    r1.close();
+}) 
