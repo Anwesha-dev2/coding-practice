@@ -1,0 +1,21 @@
+const readline = require("readline");
+const r1 = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+r1.question("Enter a character: ", (input) => {
+
+    let ch = input[0];
+
+    if (ch >= 'A' && ch <= 'Z')
+        console.log("Uppercase Letter");
+    else if (ch >= 'a' && ch <= 'z')
+        console.log("Lowercase Letter");
+    else if (ch >= '0' && ch <= '9')
+        console.log("Digit");
+    else
+        console.log("Special Character");
+
+    r1.close();
+});
