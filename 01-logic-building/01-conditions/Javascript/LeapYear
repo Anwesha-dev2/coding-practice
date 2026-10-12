@@ -1,0 +1,18 @@
+const readline = require("readline");
+const r1 = readline.createInterface({
+    input:process.stdin,
+    output:process.stdout
+});
+r1.question("Enter the Year :", (input)=>
+{
+    let year = Number(input);
+    // Write the  code logic acc to question
+if((year% 400===0)||(year% 4===0 && year%100 !==0))
+console.log("This is a leap year ");
+else 
+    console.log("This is Not aa leap year");
+    
+
+    r1.close();
+    
+})
