@@ -1,0 +1,8 @@
+ch = input("Enter an Alphabet: ").lower()
+
+if 'a' <= ch <= 'm':
+    print("Character lies between a and m")
+elif 'n' <= ch <= 'z':
+    print("Character lies between n and z")
+else:
+    print("Invalid Alphabet")
