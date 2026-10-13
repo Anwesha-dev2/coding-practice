@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class AlphabetRange {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter an Alphabet: ");
+        char ch = Character.toLowerCase(sc.next().charAt(0));
+
+        if (ch >= 'a' && ch <= 'm')
+            System.out.println("Character lies between a and m");
+        else if (ch >= 'n' && ch <= 'z')
+            System.out.println("Character lies between n and z");
+        else
+            System.out.println("Invalid Alphabet");
+
+        sc.close();
+    }
+}
+           
