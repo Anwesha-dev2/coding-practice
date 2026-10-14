@@ -1,0 +1,19 @@
+const readline = require("readline");
+const r1 = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+r1.question("Enter an Alphabet: ", (input) => {
+
+    let ch = input.toLowerCase();
+
+    if (ch >= 'a' && ch <= 'm')
+        console.log("Character lies between a and m");
+    else if (ch >= 'n' && ch <= 'z')
+        console.log("Character lies between n and z");
+    else
+        console.log("Invalid Alphabet");
+
+    r1.close();
+});
