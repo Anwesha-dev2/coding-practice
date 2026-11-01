@@ -1,0 +1,12 @@
+def print_even(n):
+    if n < 2:
+        return
+
+    print_even(n - 1)
+
+    if n % 2 == 0:
+        print(n, end=" ")
+
+
+n = int(input("Enter n: "))
+print_even(n)
