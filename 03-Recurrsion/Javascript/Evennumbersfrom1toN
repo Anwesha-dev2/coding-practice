@@ -1,0 +1,23 @@
+const readline = require("readline");
+
+const r1 = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+r1.question("Enter n: ", (input) => {
+    let n = Number(input);
+
+    function printEven(n) {
+        if (n < 2)
+            return;
+
+        printEven(n - 1);
+
+        if (n % 2 === 0)
+            process.stdout.write(n + " ");
+    }
+
+    printEven(n);
+    r1.close();
+});
